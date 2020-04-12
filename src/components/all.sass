@@ -5,13 +5,44 @@
 $kaldi-red: #D64000
 $kaldi-red-invert: #fff
 
+$kaldi-oudo: #bdbf99
+$kaldi-oudo-invert: #000
+
+$kaldi-orange: #ffa600
+$kaldi-orange-invert: #000
+
+$kaldi-khaki: #87cca2
+$kaldi-khaki-invert: #000
+
+$kaldi-nezumi: #ced4b8
+$kaldi-nezumi-invert: #000
+
+$kaldi-pink: #ffe8db
+$kaldi-pink-invert: #000
+
+$kaldi-grey: #f0f0f0
+$kaldi-grey-invert: #000
+
 $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
+$info: $kaldi-oudo
+$info-invert: $kaldi-oudo-invert
+$success: $kaldi-orange
+$success-invert: $kaldi-orange-invert
+$link: $kaldi-khaki
+$link-invert: $kaldi-khaki-invert
+$warning: $kaldi-nezumi
+$warning-invert: $kaldi-nezumi-invert
+$danger: $kaldi-pink
+$danger-invert: $kaldi-pink-invert
+$light: $kaldi-grey
+$light-invert: $kaldi-grey-invert
+
 $body-color: #333
 $black: #2b2523
 
 .navbar .navbar-menu
-  box-shadow:none !important
+  box-shadow: none !important
 
 .content .taglist
   list-style: none
@@ -43,30 +74,30 @@ $black: #2b2523
   align-items: center
 
 .full-width-image
-    width: 100vw
-    height: 400px
-    background-size: cover
-    background-position: bottom
-    display: flex
-    justify-content: center
-    align-items: center
+  width: 100vw
+  height: 400px
+  background-size: cover
+  background-position: bottom
+  display: flex
+  justify-content: center
+  align-items: center
 
 .btn
-    display: inline-block
-    padding: 12px 16px 10px
-    font-size: 18px
-    font-size: 1rem
-    line-height: 1.25
-    background-color: #fff
-    border-radius: .25rem
-    text-decoration: none
-    font-weight: 700
-    color: #CC3700
-    text-align: center
-    -webkit-box-shadow: inset 0 0 0 2px #CC3700
-    box-shadow: inset 0 0 0 2px #f40
-    -webkit-transition: all .15s ease
-    transition: all .15s ease
+  display: inline-block
+  padding: 12px 16px 10px
+  font-size: 18px
+  font-size: 1rem
+  line-height: 1.25
+  background-color: #fff
+  border-radius: .25rem
+  text-decoration: none
+  font-weight: 700
+  color: #CC3700
+  text-align: center
+  -webkit-box-shadow: inset 0 0 0 2px #CC3700
+  box-shadow: inset 0 0 0 2px #f40
+  -webkit-transition: all .15s ease
+  transition: all .15s ease
 
 .margin-top-0
   margin-top: 0 !important
@@ -103,14 +134,14 @@ $menu-label-color: $white-ter
 .social
   padding: 2em
 .social a
-    padding: .5em .5em .3em .5em
-    border-radius: 1em
-    background-color: $white-ter
-    margin: .5em
-    width: 1em
-    height: 1em
-    vertical-align: middle
-    display: inline
+  padding: .5em .5em .3em .5em
+  border-radius: 1em
+  background-color: $white-ter
+  margin: .5em
+  width: 1em
+  height: 1em
+  vertical-align: middle
+  display: inline
 
 // blog roll
 .blog-list-item.is-featured
@@ -127,11 +158,11 @@ $menu-label-color: $white-ter
 
 
 // responsiveness
-+tablet-only
+  +tablet-only
   .blog-list-item .featured-thumbnail
     flex-basis: 50%;
 
-+mobile
+    +mobile
   .blog-list-item header
     display: block
   .blog-list-item .featured-thumbnail
