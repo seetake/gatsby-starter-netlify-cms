@@ -13,70 +13,58 @@ export const IndexPageTemplate = ({
   subheading,
   mainpitch,
   description,
-  intro,
+  intro
 }) => (
   <div>
     <section className="hero is-dark is-large">
       <div className="hero-body">
         <div className="container has-text-left">
-          <h1 className="title">Primary title</h1>
-          <h2 className="subtitle">Primary subtitle</h2>
+          <h1 className="title">GUIDE</h1>
+          <h2 className="subtitle">あいさつ文、これまでの歴史</h2>
         </div>
       </div>
     </section>
     <section className="hero is-info is-large">
       <div className="hero-body">
         <div className="container">
-          <h1 className="title">Primary title</h1>
-          <h2 className="subtitle">Primary subtitle</h2>
+          <h1 className="title">SPACE</h1>
+          <h2 className="subtitle">
+            NAWATE/とりいくぐる/ラウンジ・カド/気楽荘
+          </h2>
         </div>
       </div>
     </section>
     <section className="hero is-success is-large">
       <div className="hero-body">
         <div className="container">
-          <h1 className="title">Primary title</h1>
-          <h2 className="subtitle">Primary subtitle</h2>
+          <h1 className="title">EVENTS</h1>
+          <h2 className="subtitle">イベントのお知らせ</h2>
         </div>
       </div>
     </section>
     <section className="hero is-link is-large">
       <div className="hero-body">
         <div className="container">
-          <h1 className="title">Primary title</h1>
-          <h2 className="subtitle">Primary subtitle</h2>
+          <h1 className="title">SHOP</h1>
+          <h2 className="subtitle">BASEから最新の商品を掲示</h2>
         </div>
       </div>
     </section>
     <section className="hero is-warning is-large">
       <div className="hero-body">
         <div className="container">
-          <h1 className="title">Primary title</h1>
-          <h2 className="subtitle">Primary subtitle</h2>
+          <h1 className="title">nawate ARCHIVE</h1>
+          <h2 className="subtitle">
+            地域の8ミリフィルムのデジタル化映像を公開
+          </h2>
         </div>
       </div>
     </section>
     <section className="hero is-danger is-large">
       <div className="hero-body">
         <div className="container">
-          <h1 className="title">Primary title</h1>
-          <h2 className="subtitle">Primary subtitle</h2>
-        </div>
-      </div>
-    </section>
-    <section className="hero  is-large">
-      <div className="hero-body">
-        <div className="container">
-          <h1 className="title">Primary title</h1>
-          <h2 className="subtitle">Primary subtitle</h2>
-        </div>
-      </div>
-    </section>
-    <section className="hero is-light is-large">
-      <div className="hero-body">
-        <div className="container">
-          <h1 className="title">Primary title</h1>
-          <h2 className="subtitle">Primary subtitle</h2>
+          <h1 className="title">CONTACT</h1>
+          <h2 className="subtitle">お問い合わせ/運営母体について</h2>
         </div>
       </div>
     </section>
@@ -91,8 +79,8 @@ IndexPageTemplate.propTypes = {
   mainpitch: PropTypes.object,
   description: PropTypes.string,
   intro: PropTypes.shape({
-    blurbs: PropTypes.array,
-  }),
+    blurbs: PropTypes.array
+  })
 };
 
 const IndexPage = ({ data }) => {
@@ -116,9 +104,9 @@ const IndexPage = ({ data }) => {
 IndexPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object,
-    }),
-  }),
+      frontmatter: PropTypes.object
+    })
+  })
 };
 
 export default IndexPage;
